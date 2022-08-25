@@ -1,0 +1,25 @@
+@import url(root.css);
+@import url(template.css);
+@import url(flex.css);
+@import url(typography.css);
+
+body{
+    background-image: url('../img/endless-constellation.svg');
+}
+
+.card{
+    background-color: whitesmoke;
+}
+
+.photo{
+    border: 3px solid red;
+    overflow: hidden;
+}
+
+.contact{
+    border-top: 1px solid rgb(209, 209, 209);
+}
+
+.contact :hover{
+    background-color: aquamarine;
+}
